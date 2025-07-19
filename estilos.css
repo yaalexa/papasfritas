@@ -1,5 +1,48 @@
-.papasfritas{
-    .head{
-        background-color: bisque;
-    }
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.pag{
+    width: 75%;
+    height: 1000px;
+    border: 0.5px solid;
+    display: flex;
+    gap: 20px;
+}
+
+.head{
+        background-color: rgb(214, 174, 124);
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        width: 75%;
+        top: 0;
+        
+}
+
+.main{
+    display: flex;
+    width: 100%;
+}
+
+.left{
+    background-color: rgb(233, 214, 192);
+    width: 70%;
+    height: 500px;
+    padding: 30px;
+}
+
+.left img{
+    width: 50%;
+}
+
+.right{
+    background-color: rgb(218, 196, 168);
+    width: 30%;
+    height: 500px;
 }
